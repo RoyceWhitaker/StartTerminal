@@ -16,6 +16,7 @@
 - - `[search term] -i` for a google image search
 - - `[search term] -m` for a wolfram alpha search
 - You may also just type in a domain such as `github.com` to be redirected there
+- 4chan boards can be quickly visited by typing in their extension. Ex: `/b` or `/wsg`
 
 ## Setup
 ### Weather
