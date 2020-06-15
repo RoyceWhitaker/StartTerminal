@@ -23,7 +23,7 @@
 - Type `weather` to get directions in the CMD windows
 - Get a [weather api key](https://openweathermap.org/appid) by signing up for free
 - type `edit .weatherkey` and paste the api key
-- Hit the `esc` key and type save. Press enter & then 're'. You may need to confirm the reload.
+- Save by hitting `esc`, and typing `close'
 - It may take several hours for your api key to become active.
 - Type `locate` to save your coordinates (location required & only collected when this command is executed)
 - Weather should work :)
@@ -31,12 +31,12 @@
 - To change the username: `edit .config` and add `userName:XX`
 - To change the computer name: `edit .config` and add `userMachine:XX`
 - Presented in the terminal windows as `userName@userMachine`
-- One per line. No empty lines. Save as before (hit `esc`, type save, hit `enter` amd type `re` to reload the page)
+- One per line. No empty lines. Save as before by hitting `esc`, and typing `close'
 ### Bookmarks
 - Type `edit .bookmarks`
 - Add one per line in this format `google https://www.google.com/`
-- One per line. No empty lines. Save as before (hit `esc`, type save, hit `enter` amd type `re` to reload the page)
-- You may visit the bookmarks by simply typing their name into the promp
+- One per line. No empty lines. Save as before by hitting `esc`, and typing `close'
+- You may visit the bookmarks by simply typing their name into the prompt
 
 ## Contributing
 ### Files
