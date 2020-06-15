@@ -23,6 +23,7 @@ var terminalFunctions = [
 "search",
 "screenfetch",
 "time",
+"date",
 "weather",
 ]
 
@@ -172,6 +173,13 @@ var time = {
 		render(getTime());
 	},
 	helpText: 'Logs the current local time.',
+}
+
+var date = {
+	main: function() {
+		render(getDate());
+	},
+	helpText: 'Logs the current date.',
 }
 
 var reddit = {
