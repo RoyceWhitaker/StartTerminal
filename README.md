@@ -31,5 +31,10 @@
 - To change the computer name: `edit .config` and add `userMachine:XX`
 - Presented in the terminal windows as `userName@userMachine`
 - One per line. No empty lines. Save as before (hit `esc`, type save, hit `enter` amd type `re` to reload the page)
+### Bookmarks
+- Type `edit .bookmarks`
+- Add one per line in this format `google https://www.google.com/`
+- One per line. No empty lines. Save as before (hit `esc`, type save, hit `enter` amd type `re` to reload the page)
+- You may visit the bookmarks by simply typing their name into the promp
 
 Credits: Based on the work by [vapor-404](https://github.com/vapor-404/vapor-404.github.io/tree/master/terminal)
