@@ -355,6 +355,8 @@ function addInput(str) {
     if (str === "" || /^[ ]+$/.test(str)) {
         return;
     }
+	
+    document.title = str + " - Terminal";
 
     if (lastInputs[0] !== str) {
         lastInputs.unshift(str); //Prevents duplicate entries from being recorded
