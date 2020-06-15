@@ -224,7 +224,7 @@ var weather = {
 	    //set up the right parameters
     	apiKey=files[".weatherkey"];
 
-		var endpoint = "http://api.openweathermap.org/data/2.5/weather?lat="+terminal.lat+"&lon="+terminal.lon+"&appid="+apiKey;
+		var endpoint = "https://api.openweathermap.org/data/2.5/weather?lat="+terminal.lat+"&lon="+terminal.lon+"&appid="+apiKey;
 
 		//retrieve+format data for storage
 		$.when($.getJSON(endpoint)).done(function(o) {
