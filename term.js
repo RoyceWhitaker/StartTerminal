@@ -347,7 +347,7 @@ var lastInputs = []
 var inputIndex = 0;
 
 if (localStorage.getItem("history")) {
-    lastInputs = JSON.parse(localStorage.getItem("history"))
+    lastInputs = JSON.parse(localStorage.getItem("history"));
 }
 
 //adds to the beginning of the array
@@ -356,10 +356,9 @@ function addInput(str) {
         return;
     }
 
-    if (lastInputs[0] == str) {
-        lastInputs.unshift(str);
+    if (lastInputs[0] !== str) {
+        lastInputs.unshift(str); //Prevents duplicate entries from being recorded
     }
-
     localStorage.setItem("history", JSON.stringify(lastInputs))
 }
 
@@ -443,6 +442,14 @@ function getTime() {
 	return h + ":" + m + (pm ? " PM" : " AM")
 }
 
+function getDate() {
+	var today = new Date();
+	var dd = String(today.getDate()).padStart(2, '0');
+	var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+	var yyyy = today.getFullYear();
+	today = mm + '/' + dd + '/' + yyyy;
+	return today;
+}
 function loadURL(url) {
     render("Loading " + url + "...")
     window.location = url
