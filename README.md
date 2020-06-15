@@ -38,4 +38,17 @@
 - One per line. No empty lines. Save as before (hit `esc`, type save, hit `enter` amd type `re` to reload the page)
 - You may visit the bookmarks by simply typing their name into the promp
 
+## Contributing
+### Files
+- bin.js -> Functions & Welcome text
+- change.js -> Used to force command promp focus away from the browsers url bar.
+- edit.js -> Functions related to managing virtual files
+- index.html -> The main html page.
+- manifest.json -> Settings for chromium extension
+- scrollbar.css -> Scrollbar styles
+- start-index.html -> HTML file used to redirect to index.html / Part of changing focus to terminal page
+- style.css -> Main styles
+- term.js -> Main JS file. Conducts startup
+
+
 Credits: Based on the work by [vapor-404](https://github.com/vapor-404/vapor-404.github.io/tree/master/terminal)
