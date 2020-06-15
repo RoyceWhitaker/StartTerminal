@@ -1,5 +1,6 @@
 function binStartup() {
 	render(welcomeText);
+	document.title = getName() + '@' + getMachine();
 }
 
 var welcomeText = `	=== Welcome! ===
