@@ -26,3 +26,5 @@
 - It may take several hours for your api key to become active.
 - Type locate to save your coordinates (location required & only collected when this command is executed)
 - Weather should work :)
+
+Credits: Based on the work by [vapor-404](https://github.com/vapor-404/vapor-404.github.io/tree/master/terminal)
