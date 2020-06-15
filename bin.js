@@ -122,7 +122,7 @@ var about = {
 			"You can also create a .bookmarks file (linkTitle http://link.com/).\n"+
 			"Put something in a file called .art to add your custom ASCII art to screenfetch.\n"+
 			"Finally, you can put arbitrary startup code to execute in your .startup file. Errors are handled automatically."+
-			"\nTo see the full functionality, type 'ls'."
+			"\nTo see the full functionality, type 'ls' or visit the <a href='https://github.com/RoyceWhitaker/StartTerminal'>GitHub</a>"
 		)
 	},
 	helpText: "Displays terminal info."
