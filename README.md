@@ -24,7 +24,7 @@
 - type `edit .weatherkey` and paste the api key
 - Hit the `esc` key and type save. Press enter & then 're'. You may need to confirm the reload.
 - It may take several hours for your api key to become active.
-- Type locate to save your coordinates (location required & only collected when this command is executed)
+- Type `locate` to save your coordinates (location required & only collected when this command is executed)
 - Weather should work :)
 ### Config File
 - To change the username: `edit .config` and add `userName:XX`
